@@ -1,6 +1,5 @@
 import { format } from "date-fns";
 import { useFinance } from "@/context/FinanceContext";
-import { Transaction } from "@/types";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowDownCircle, ArrowUpCircle } from "lucide-react";

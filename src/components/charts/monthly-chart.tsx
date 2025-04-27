@@ -3,7 +3,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useFinance } from "@/context/FinanceContext";
 import { CATEGORIES } from "@/types";
-import { format, getDaysInMonth, getYear, subMonths } from "date-fns";
+import { format, getDaysInMonth, getYear } from "date-fns";
 import { useTheme } from "@/components/theme-provider";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
